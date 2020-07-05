@@ -6,6 +6,9 @@ class Novo{
   'não faz nada
 }
 
+class OutroAlerta{
+}
+
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
